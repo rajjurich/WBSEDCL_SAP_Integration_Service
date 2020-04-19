@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sap_integration_service", "sap_integration_service\sap_integration_service.csproj", "{05BFCE79-D77C-4FE0-A02C-43C43944A452}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Sap_Integration_Service_Setup", "Sap_Integration_Service_Setup\Sap_Integration_Service_Setup.vdproj", "{67EB3E19-3C78-475A-ACB8-48AA184C4A70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05BFCE79-D77C-4FE0-A02C-43C43944A452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05BFCE79-D77C-4FE0-A02C-43C43944A452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05BFCE79-D77C-4FE0-A02C-43C43944A452}.Debug|x64.ActiveCfg = Debug|x64
+		{05BFCE79-D77C-4FE0-A02C-43C43944A452}.Debug|x64.Build.0 = Debug|x64
+		{05BFCE79-D77C-4FE0-A02C-43C43944A452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05BFCE79-D77C-4FE0-A02C-43C43944A452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05BFCE79-D77C-4FE0-A02C-43C43944A452}.Release|x64.ActiveCfg = Release|x64
+		{05BFCE79-D77C-4FE0-A02C-43C43944A452}.Release|x64.Build.0 = Release|x64
+		{67EB3E19-3C78-475A-ACB8-48AA184C4A70}.Debug|Any CPU.ActiveCfg = Debug
+		{67EB3E19-3C78-475A-ACB8-48AA184C4A70}.Debug|x64.ActiveCfg = Debug
+		{67EB3E19-3C78-475A-ACB8-48AA184C4A70}.Release|Any CPU.ActiveCfg = Release
+		{67EB3E19-3C78-475A-ACB8-48AA184C4A70}.Release|x64.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

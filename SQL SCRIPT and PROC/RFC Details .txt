@@ -1,0 +1,18 @@
+
+ip->hostname
+10.251.63.111    dclerpse.wbsedcl.in
+
+rfc conn credential and host
+
+ 'ashost' => 'dclerpse.wbsedcl.in',
+    'sysnr'  => '01',
+    'client' => '900',
+    'user'   => 'ERPMOBAPP',
+    'passwd' => 'erpwbsedcl',
+    'trace'  => SapConnection::TRACE_LEVEL_OFF,
+
+function rfc
+ZHR_EMPLOYEE_DETAILS
+
+invoke param 
+PERNR

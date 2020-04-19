@@ -1,0 +1,37 @@
+
+declare @p12 nvarchar(1000)
+set @p12=N''
+exec ShiftScheduleCorrection @pFromDate='2016-10-15 00:00:00',@pToDate='2016-10-15 00:00:00',@EmpCode=N'(''11223344'')',@Cmpcde=N'',@Loccde=N'',@divcde=N'',@depcde=N'',@catcde=N'',@scheduleType=N'Fixed',@shiftType=N'13',@pIsOnWordType=N'0',@strErrorMsg=@p12 output
+select @p12
+
+
+
+
+declare @day nvarchar(10)
+
+set @day = day(getdate())
+
+declare @query varchar(max)
+set @query = 'select sap_id,shift_day_'+@day+' from sapintegrationdata2 where flag=1'
+declare @temtbl table(sap_id varchar(max),shifttype varchar(10))
+insert into @temtbl
+exec(@query)
+select * from @temtbl
+declare @EmpID varchar(10)
+declare @shiftype varchar(10)
+WHILE EXISTS (SELECT 1 FROM @temtbl)
+BEGIN
+declare @td date
+set @td=cast(getdate() as date)
+
+    SELECT TOP 1 @EmpID = sap_id,@shiftype=shifttype FROM @temtbl
+	declare @ec varchar(100)
+set @ec = '('''+ @EmpID + ''')'
+
+	if not exists(select 1 from tday where tday_empcde=@empid and tday_date=@td and TDAY_SFTREPO=@shiftype)
+    begin
+	select 1
+	exec ShiftScheduleCorrection @pFromDate=@td,@pToDate=@td,@EmpCode=@ec,@Cmpcde=N'',@Loccde=N'',@divcde=N'',@depcde=N'',@catcde=N'',@scheduleType=N'Fixed',@shiftType=N'13',@pIsOnWordType=N'0'
+	end
+    DELETE FROM @temtbl WHERE sap_id = @EmpID
+END

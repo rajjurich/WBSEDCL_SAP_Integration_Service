@@ -1,0 +1,29 @@
+'dclerpse.wbsedcl.in', 'sysnr' => '01', 'client' => '900', 'user' => 'ERPMOBAPP', 'passwd' => 'erpwbsedcl', 'trace' => SapConnection::TRACE_LEVEL_OFF, ]; /*$config = [ 'ashost' => 'dclerpdev.wbsedcl.in', 'sysnr' => '00', 'client' => '300', 'user' => 'ERPMOBAPP', 'passwd' => 'initpass', 'trace' => SapConnection::TRACE_LEVEL_OFF, ];*/ 
+$c = new SapConnection($config); 
+$f = $c->getFunction('ZHR_EMPLOYEE_DETAILS'); 
+$j=0; 
+$tm= microtime(true);
+ echo ''; 
+ for ($i=90000001;$i< 90017596; $i++) 
+ { try 
+ { 
+ // $c = new SapConnection($config);
+ //var_dump($c); exit;
+ // $f = $c->getFunction('ZHR_EMPLOYEE_DETAILS_MAPP');
+ $result = $f->invoke([ 'PERNR' =>(string)$i , ]);
+ $j++;
+ if(strlen($result['LS_EMP_DETAILS']["EMNAM"]))
+ { echo '';
+ foreach($result['LS_EMP_DETAILS'] as $a=>$op) echo '';
+ echo '';
+ } 
+ else 
+ echo "Invalid Sap Id $j";
+ } 
+ catch(SapException $ex) 
+ { echo 'Exception: ' . $ex->getMessage() . PHP_EOL; } 
+ } echo ''.$j.')	'.$op.'
+'; 
+$tn=microtime(true); $t = $tn - $tm; echo '
+
+total timetaken to fetch records' .$t ; ?> 

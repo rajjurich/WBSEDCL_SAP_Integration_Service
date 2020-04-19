@@ -1,0 +1,81 @@
+**** Log file opened by process 1820 at 2018-03-19 11:41:05 (UTC+05:30 India Standard Time)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 64-bit .NET Framework 4.0.30319.42000
+Program: E:\Rajneesh\example\SAPIntegrationService\sap_integration_service\bin\Debug\sap_integration_service.vshost.exe
+Working directory: E:\Rajneesh\example\SAPIntegrationService\sap_integration_service\bin\Debug
+Operating system:  Standard Server 64-bit 
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: WIN-F1349290GQG, IP address: 172.19.10.145, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-03-19 11:41:05.741 [Thread 12]
+SAP.Middleware.Connector.RfcInvalidStateException: destination configuration already initialized
+   at SAP.Middleware.Connector.RfcDestinationManager.RegisterDestinationConfiguration(IDestinationConfiguration config)
+>> Error entry 2018-03-19 11:41:07.451 [Thread 12]
+SAP.Middleware.Connector.RfcInvalidStateException: destination configuration already initialized
+   at SAP.Middleware.Connector.RfcDestinationManager.RegisterDestinationConfiguration(IDestinationConfiguration config)
+>> Error entry 2018-03-19 11:41:08.986 [Thread 12]
+SAP.Middleware.Connector.RfcInvalidStateException: destination configuration already initialized
+   at SAP.Middleware.Connector.RfcDestinationManager.RegisterDestinationConfiguration(IDestinationConfiguration config)
+>> Error entry 2018-03-19 11:41:11.745 [Thread 12]
+SAP.Middleware.Connector.RfcInvalidStateException: destination configuration already initialized
+   at SAP.Middleware.Connector.RfcDestinationManager.RegisterDestinationConfiguration(IDestinationConfiguration config)
+>> Error entry 2018-03-19 11:41:13.607 [Thread 12]
+SAP.Middleware.Connector.RfcInvalidStateException: destination configuration already initialized
+   at SAP.Middleware.Connector.RfcDestinationManager.RegisterDestinationConfiguration(IDestinationConfiguration config)
+>> Error entry 2018-03-19 11:41:21.279 [Thread 12]
+SAP.Middleware.Connector.RfcInvalidStateException: destination configuration already initialized
+   at SAP.Middleware.Connector.RfcDestinationManager.RegisterDestinationConfiguration(IDestinationConfiguration config)
+**** Log file opened by process 4544 at 2018-03-19 11:47:52 (UTC+05:30 India Standard Time)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 64-bit .NET Framework 4.0.30319.42000
+Program: E:\Rajneesh\example\SAPIntegrationService\sap_integration_service\bin\Debug\sap_integration_service.vshost.exe
+Working directory: E:\Rajneesh\example\SAPIntegrationService\sap_integration_service\bin\Debug
+Operating system:  Standard Server 64-bit 
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: WIN-F1349290GQG, IP address: 172.19.10.145, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-03-19 11:47:52.855 [Thread 11]
+SAP.Middleware.Connector.RfcInvalidStateException: destination configuration already initialized
+   at SAP.Middleware.Connector.RfcDestinationManager.RegisterDestinationConfiguration(IDestinationConfiguration config)
+>> Error entry 2018-03-19 11:48:10.159 [Thread 11]
+SAP.Middleware.Connector.RfcInvalidStateException: destination configuration already initialized
+   at SAP.Middleware.Connector.RfcDestinationManager.RegisterDestinationConfiguration(IDestinationConfiguration config)
+**** Log file opened by process 352 at 2018-03-19 11:56:39 (UTC+05:30 India Standard Time)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 64-bit .NET Framework 4.0.30319.42000
+Program: E:\Rajneesh\example\SAPIntegrationService\sap_integration_service\bin\Debug\sap_integration_service.vshost.exe
+Working directory: E:\Rajneesh\example\SAPIntegrationService\sap_integration_service\bin\Debug
+Operating system:  Standard Server 64-bit 
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: WIN-F1349290GQG, IP address: 172.19.10.145, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-03-19 11:56:39.496 [Thread 12]
+SAP.Middleware.Connector.RfcInvalidStateException: destination configuration already initialized
+   at SAP.Middleware.Connector.RfcDestinationManager.RegisterDestinationConfiguration(IDestinationConfiguration config)
+**** Log file opened by process 5836 at 2018-03-19 12:11:39 (UTC+05:30 India Standard Time)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 64-bit .NET Framework 4.0.30319.42000
+Program: E:\Rajneesh\example\SAPIntegrationService\sap_integration_service\bin\Debug\sap_integration_service.vshost.exe
+Working directory: E:\Rajneesh\example\SAPIntegrationService\sap_integration_service\bin\Debug
+Operating system:  Standard Server 64-bit 
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: WIN-F1349290GQG, IP address: 172.19.10.145, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-03-19 12:11:39.578 [Thread 12]
+SAP.Middleware.Connector.RfcInvalidStateException: destination configuration already initialized
+   at SAP.Middleware.Connector.RfcDestinationManager.RegisterDestinationConfiguration(IDestinationConfiguration config)
+>> Error entry 2018-03-19 12:12:01.140 [Thread 12]
+SAP.Middleware.Connector.RfcInvalidStateException: destination configuration already initialized
+   at SAP.Middleware.Connector.RfcDestinationManager.RegisterDestinationConfiguration(IDestinationConfiguration config)

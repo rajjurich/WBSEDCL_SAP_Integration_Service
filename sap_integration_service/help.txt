@@ -1,0 +1,15 @@
+https://github.com/ion-sapoval/NSAPConnector
+
+Install-Package NSAPConnector_x86
+
+or 
+
+Install-Package NSAPConnector_x64
+
+
+or 
+
+Install-Package SAPDotNetConnector3
+
+
+.net version 4

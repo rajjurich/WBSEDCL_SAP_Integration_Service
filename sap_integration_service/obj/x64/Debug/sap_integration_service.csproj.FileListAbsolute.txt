@@ -1,0 +1,12 @@
+E:\Rajneesh\SVN\uno_clientwise_project\WBSEDCL_SAP_Integration_Service\sap_integration_service\bin\x64\Debug\sap_integration_service.exe.config
+E:\Rajneesh\SVN\uno_clientwise_project\WBSEDCL_SAP_Integration_Service\sap_integration_service\bin\x64\Debug\sap_integration_service.exe
+E:\Rajneesh\SVN\uno_clientwise_project\WBSEDCL_SAP_Integration_Service\sap_integration_service\bin\x64\Debug\sap_integration_service.pdb
+E:\Rajneesh\SVN\uno_clientwise_project\WBSEDCL_SAP_Integration_Service\sap_integration_service\bin\x64\Debug\sapnco.dll
+E:\Rajneesh\SVN\uno_clientwise_project\WBSEDCL_SAP_Integration_Service\sap_integration_service\bin\x64\Debug\sapnco_utils.dll
+E:\Rajneesh\SVN\uno_clientwise_project\WBSEDCL_SAP_Integration_Service\sap_integration_service\obj\x64\Debug\sap_integration_service.ProjectInstaller.resources
+E:\Rajneesh\SVN\uno_clientwise_project\WBSEDCL_SAP_Integration_Service\sap_integration_service\obj\x64\Debug\sap_integration_service.Service.resources
+E:\Rajneesh\SVN\uno_clientwise_project\WBSEDCL_SAP_Integration_Service\sap_integration_service\obj\x64\Debug\sap_integration_service.csproj.GenerateResource.Cache
+E:\Rajneesh\SVN\uno_clientwise_project\WBSEDCL_SAP_Integration_Service\sap_integration_service\obj\x64\Debug\sap_integration_service.exe
+E:\Rajneesh\SVN\uno_clientwise_project\WBSEDCL_SAP_Integration_Service\sap_integration_service\obj\x64\Debug\sap_integration_service.pdb
+E:\Rajneesh\SVN\uno_clientwise_project\WBSEDCL_SAP_Integration_Service\sap_integration_service\bin\x64\Debug\NSAPConnector.dll
+E:\Rajneesh\SVN\uno_clientwise_project\WBSEDCL_SAP_Integration_Service\sap_integration_service\obj\x64\Debug\sap_integration_service.csprojResolveAssemblyReference.cache
